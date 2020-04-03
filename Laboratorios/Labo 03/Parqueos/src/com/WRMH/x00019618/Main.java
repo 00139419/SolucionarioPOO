@@ -1,5 +1,4 @@
 package com.WRMH.x00019618;
-
 import javax.swing.*;
 import java.util.ArrayList;
 
@@ -13,6 +12,7 @@ public class Main{
         do{
             // Pedir la opcion con input dialog
             op = Integer.parseInt(JOptionPane.showInputDialog(null, menuPrincipal()));
+
 
             switch(op){
                 case 1:
